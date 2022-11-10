@@ -1,0 +1,39 @@
+
+$black-color: #0F0F10;
+$deepBlue-color: #09035D;
+$lime-color: #9FDB3D;
+$darkViolet-color: #7871DE;
+
+
+
+@font-face {
+    font-family: 'Post No Bills Colombo';
+    src: url(../fonts/postnobillscolombo-regular.woff2);
+};
+@font-face {
+    font-family: 'Post No Bills Colombo';
+    src: url(../fonts/postnobillscolombo-light.woff2);
+};
+@font-face {
+    font-family: 'Post No Bills Colombo';
+    src: url(../fonts//postnobillscolombo-medium.woff2);
+};
+@font-face {
+    font-family: 'Post No Bills Colombo';
+    src: url(../fonts/postnobillscolombo-semibold.woff2);
+};
+@font-face {
+    font-family: 'SeoulHangang';
+    src: url(../fonts/AnyConv.com__SeoulHangang-Medium.woff2);
+};
+@font-face {
+    font-family: 'SeoulHangang';
+    src: url(../fonts/SeoulHangang-Bold.woff2);
+};
+
+
+@import 'set';
+@import 'header';
+
+
+

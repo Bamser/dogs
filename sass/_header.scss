@@ -1,0 +1,61 @@
+.header {
+    padding-top: 4rem;
+    background-color: #EDEBFC;
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo img {
+        max-width: 11.2rem;
+        max-height: 3.2rem;
+    }
+    & a {
+        display: block;
+    }
+    &__list {
+        display: flex;
+        gap: 2rem;
+        & a {
+            color: $deepBlue-color;
+            font-size: 1.4rem;
+            &:hover {
+                color: $darkViolet-color;
+            }
+        }
+    }
+}
+
+.social {
+    display: flex;
+    gap: 0.4rem;
+    & a {
+        width: 2.4rem;
+        height: 2.4rem;
+        display: block;
+    }
+    &__insta {
+        background: url(../image/insta.webp) center no-repeat;
+        &:hover {
+            background: url(../image/insta-hover.webp) center no-repeat;
+        }
+    }
+    &__fb {
+        background: url(../image/fb.webp) center no-repeat;
+        &:hover {
+            background: url(../image/fb-hover.webp) center no-repeat;
+        }
+    }
+    &__vk {
+        background: url(../image/vk.webp) center no-repeat;
+        &:hover {
+            background: url(../image/vk-hover.webp) center no-repeat;
+        }
+    }
+    &__teleg {
+        background: url(../image/teleg.webp) center no-repeat;
+        &:hover {
+            background: url(../image/teleg-hover.webp) center no-repeat;
+        }
+    }
+}

@@ -1,0 +1,204 @@
+@font-face {
+  font-family: "Post No Bills Colombo";
+  src: url(../fonts/postnobillscolombo-regular.woff2);
+}
+@font-face {
+  font-family: "Post No Bills Colombo";
+  src: url(../fonts/postnobillscolombo-light.woff2);
+}
+@font-face {
+  font-family: "Post No Bills Colombo";
+  src: url(../fonts//postnobillscolombo-medium.woff2);
+}
+@font-face {
+  font-family: "Post No Bills Colombo";
+  src: url(../fonts/postnobillscolombo-semibold.woff2);
+}
+@font-face {
+  font-family: "SeoulHangang";
+  src: url(../fonts/AnyConv.com__SeoulHangang-Medium.woff2);
+}
+@font-face {
+  font-family: "SeoulHangang";
+  src: url(../fonts/SeoulHangang-Bold.woff2);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+html {
+  font-family: "Post No Bills Colombo", serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-animation: bugfix infinite 1s;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-animation: bugfix infinite 1s;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+textarea {
+  -webkit-animation: bugfix infinite 1s;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: unset;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+button,
+input,
+a,
+textarea {
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+}
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+button:active,
+input:active,
+a:active,
+textarea:active {
+  outline: none;
+}
+
+h1 {
+  font: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+}
+
+button {
+  border: none;
+  color: inherit;
+  font: inherit;
+  text-align: inherit;
+  padding: 0;
+  background-color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  max-width: 124rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.header {
+  padding-top: 4rem;
+  background-color: #EDEBFC;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo img {
+  max-width: 11.2rem;
+  max-height: 3.2rem;
+}
+.header a {
+  display: block;
+}
+.header__list {
+  display: flex;
+  gap: 2rem;
+}
+.header__list a {
+  color: #09035D;
+  font-size: 1.4rem;
+}
+.header__list a:hover {
+  color: #7871DE;
+}
+
+.social {
+  display: flex;
+  gap: 0.4rem;
+}
+.social a {
+  width: 2.4rem;
+  height: 2.4rem;
+  display: block;
+}
+.social__insta {
+  background: url(../image/insta.webp) center no-repeat;
+}
+.social__insta:hover {
+  background: url(../image/insta-hover.webp) center no-repeat;
+}
+.social__fb {
+  background: url(../image/fb.webp) center no-repeat;
+}
+.social__fb:hover {
+  background: url(../image/fb-hover.webp) center no-repeat;
+}
+.social__vk {
+  background: url(../image/vk.webp) center no-repeat;
+}
+.social__vk:hover {
+  background: url(../image/vk-hover.webp) center no-repeat;
+}
+.social__teleg {
+  background: url(../image/teleg.webp) center no-repeat;
+}
+.social__teleg:hover {
+  background: url(../image/teleg-hover.webp) center no-repeat;
+}
