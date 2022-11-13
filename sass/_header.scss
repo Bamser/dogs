@@ -59,3 +59,37 @@
         }
     }
 }
+
+.header__main {
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+    display: flex;
+    justify-content: space-between;
+    &-desc {
+       max-width: 52rem;
+       background-color: #fff;
+       padding: 7.5rem  3rem 7.5rem 10.4rem;
+       border-radius: 20% 0 0;
+    }
+    &--img {
+        max-width: 70rem;
+    }
+    &--title {
+        font-family: 'SeoulHangang';
+        font-size: 4.2rem;
+        line-height: 1.02;
+        color: $deepBlue-color;
+        & span {
+            color: $darkViolet-color;
+        }
+    }
+    &--text {
+        padding-right: 6rem;
+        margin-top: 2rem;
+        font-size: 1.8rem;
+        color: $darkViolet-color;
+    }
+    &--button {
+        margin-top: 3rem;
+    }
+}

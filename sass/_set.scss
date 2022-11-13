@@ -104,7 +104,23 @@ ul li {
     padding-right: 1rem;
     margin: 0 auto;
 }
-
+.button {
+    width: 28.2rem;
+    padding: 1.2rem 5rem 1rem;
+    text-align: center;
+    background-color: $deepBlue-color;
+    box-shadow: .4rem .4rem 2rem rgba(9, 3, 93, 0.1);
+    border-radius: .4rem;
+    font-size: 1.6rem;
+    color: #fff;
+    transition-duration: 500ms;
+    &:hover {
+        background-color: $darkViolet-color;
+    }
+    &:active {
+        background-color: #030848;
+    }
+}
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
