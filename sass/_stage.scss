@@ -1,0 +1,41 @@
+.stage {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    background-image: url(../image/line.webp);
+    background-repeat: no-repeat;
+    background-position-y: 30rem;
+    background-size: contain;
+    &__title {
+        font-family: 'SeoulHangang';
+        font-size: 3.6rem;
+        line-height: 1;
+        color: $deepBlue-color;
+    }
+    &__items {
+        margin-top: 6rem;
+        display: flex;
+        justify-content: space-between;
+        gap: 12.4rem 5rem;
+        flex-wrap: wrap;
+      
+    }
+    &__item {
+        max-width: 28.2rem;
+        &:nth-child(even) {
+            padding-top: 5rem;
+        }
+        & span {
+            display: block;
+            font-family: 'SeoulHangang CBL';
+            font-size: 6rem;
+            line-height: 1;
+            color: $lime-color;
+        }
+        &--text {
+            margin-top: 3rem;
+            font-weight: 600;
+            font-size: 1.6rem;
+            color: $black-color;
+        }
+    }
+}

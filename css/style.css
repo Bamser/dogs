@@ -314,3 +314,127 @@ input[type=number] {
   display: flex;
   color: #0F0F10;
 }
+
+.kinolog {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #7871DE;
+}
+.kinolog__title {
+  font-family: "SeoulHangang";
+  font-size: 3.6rem;
+  line-height: 1;
+  color: #FFFFFF;
+}
+.kinolog__desc {
+  margin-top: 4rem;
+  margin-left: 10rem;
+  display: flex;
+}
+.kinolog__item--title {
+  font-size: 2.4rem;
+  color: #9FDB3D;
+}
+.kinolog__item--text {
+  font-size: 1.8rem;
+  color: #FFFFFF;
+}
+.kinolog__item--left {
+  max-width: 59.4rem;
+  padding-right: 2rem;
+}
+.kinolog__item--right {
+  max-width: 38.6rem;
+  padding-right: 2rem;
+}
+
+.why {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+.why__title {
+  font-family: "SeoulHangang";
+  font-size: 3.6rem;
+  line-height: 1;
+  color: #09035D;
+}
+.why__items {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.why__item {
+  max-width: 38.6rem;
+  min-height: 40rem;
+  padding: 3rem;
+  background-color: #FFFFFF;
+  box-shadow: -0.4rem -0.4rem 2rem rgba(120, 113, 222, 0.1), 0.4rem 0.4rem 2rem rgba(120, 113, 222, 0.1);
+  border-radius: 0.4rem;
+  transition-duration: 500ms;
+}
+.why__item--title {
+  font-size: 2.4rem;
+  color: #09035D;
+}
+.why__item span {
+  display: block;
+  margin-top: 2rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #7871DE;
+}
+.why__item p {
+  margin-top: 1rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #0F0F10;
+}
+.why__item--right span {
+  display: inline;
+  margin-top: 0;
+}
+.why__item:hover {
+  transform: scale(1.1);
+}
+
+.stage {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  background-image: url(../image/line.webp);
+  background-repeat: no-repeat;
+  background-position-y: 30rem;
+  background-size: contain;
+}
+.stage__title {
+  font-family: "SeoulHangang";
+  font-size: 3.6rem;
+  line-height: 1;
+  color: #09035D;
+}
+.stage__items {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 12.4rem 5rem;
+  flex-wrap: wrap;
+}
+.stage__item {
+  max-width: 28.2rem;
+}
+.stage__item:nth-child(even) {
+  padding-top: 5rem;
+}
+.stage__item span {
+  display: block;
+  font-family: "SeoulHangang CBL";
+  font-size: 6rem;
+  line-height: 1;
+  color: #9FDB3D;
+}
+.stage__item--text {
+  margin-top: 3rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #0F0F10;
+}
