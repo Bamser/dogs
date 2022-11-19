@@ -93,3 +93,13 @@
         margin-top: 3rem;
     }
 }
+
+.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #EDEBFC;
+    &__copyright {
+        font-size: 1.4rem;
+        color: $deepBlue-color;
+    }
+}
