@@ -112,6 +112,7 @@ ul li {
     box-shadow: .4rem .4rem 2rem rgba(9, 3, 93, 0.1);
     border-radius: .4rem;
     font-size: 1.6rem;
+    cursor: pointer;
     color: #fff;
     transition-duration: 500ms;
     &:hover {
@@ -131,3 +132,30 @@ input[type="number"] {
     -moz-appearance: textfield;
 }
 
+
+.cards {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+  
+}
+.card {
+    width: 38.6rem;
+    min-height: 40rem;
+    padding: 3rem;
+    background-color: #FFFFFF;
+    box-shadow: -.4rem -.4rem 2rem rgba(120, 113, 222, 0.1), .4rem .4rem 2rem rgba(120, 113, 222, 0.1);
+    border-radius: .4rem;
+    transition-duration: 500ms;
+    &:hover {
+        transform: scale(1.1);
+     }
+}
+ 
+.title {
+    font-family: 'SeoulHangang';
+    font-size: 3.6rem;
+    line-height: 1;
+    color: $deepBlue-color;
+}

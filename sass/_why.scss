@@ -1,12 +1,7 @@
 .why {
     margin-top: 8rem;
     margin-bottom: 8rem;
-    &__title {
-        font-family: 'SeoulHangang';
-        font-size: 3.6rem;
-        line-height: 1;
-        color: $deepBlue-color;
-    }
+
     &__items {
         margin-top: 7rem;
         display: flex;
@@ -49,4 +44,3 @@
      }
   }
 }
-

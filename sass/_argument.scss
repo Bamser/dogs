@@ -1,7 +1,7 @@
 .argument {
     padding-right: 1rem;
     padding-left: 1rem;
-    margin-top: 9rem;
+    margin-top: 8rem;
     margin-bottom: 8rem;
     &__desc {
      display: flex;
@@ -11,11 +11,7 @@
             max-width: 19rem;
         }
         &--title {
-            font-family: 'SeoulHangang';
-            font-size: 3.6rem;
-            line-height: 1;
             text-align: center;
-            color: $deepBlue-color;
         }
         &--text {
             margin-top: 1rem;
@@ -26,12 +22,7 @@
     }
     &-main {
         margin-top: 8rem;
-        &--title {
-            font-family: 'SeoulHangang';
-            font-size: 3.6rem;
-            line-height: 1;
-            color: $deepBlue-color;
-        }
+    
         &__items {
             margin-top: 4rem;
             display: flex;

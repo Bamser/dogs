@@ -1,7 +1,10 @@
-.kinolog {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+.violet-block {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
     background-color: $darkViolet-color;
+}
+
+.kinolog {
     &__title {
         font-family: 'SeoulHangang';
         font-size: 3.6rem;
@@ -34,3 +37,75 @@
         }
     }
 }
+
+.forms {
+
+    &__items {
+        display: flex;
+        justify-content: center;
+        gap: 13.4rem;
+    }
+}
+.form__text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    & input {
+        width: 38.6rem;
+        height: 6.4rem;
+        padding-left: 2rem;
+        border: .1rem solid $deepBlue-color;
+        border-radius: .4rem;
+        font-weight: 400;
+        font-size: 1.6rem;
+        color: $darkViolet-color;
+        &:focus {
+            border: .2rem solid $lime-color;
+            color: $black-color;
+        }
+    }
+}
+
+.form__check {
+  
+    &--checkbox {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+        &+label {
+            display: inline-flex;
+            align-items: center;
+          }
+          &+label::before {
+            content: '';
+            display: inline-block;
+            width: 3rem;
+            height: 3rem;
+            flex-shrink: 0;
+            flex-grow: 0;
+            background-color: #fff;
+            margin-top: -1rem;
+            margin-right: 1rem;
+            border-radius: .4rem;        
+          }
+          &:checked+label::before {
+            background: url(../image/check-active.svg) 100%;
+           }
+    }
+
+    &--text {
+        font-size: 1.6rem;
+        color: #FFFFFF;
+        & span {
+            color: $lime-color;
+        }
+    }
+    
+    &--button {
+        margin-top: 2.5rem;
+    }
+}
+
+  
+
+ 
