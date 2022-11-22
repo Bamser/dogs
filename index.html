@@ -24,11 +24,34 @@
                     <a href="#">Чему обучу</a>
                     <a href="#">Частые вопросы</a>
                 </div>
-                <div class="social">
+                <div class="social header__social">
                     <a href="#" class="social__insta"></a>
                     <a href="#" class="social__fb"></a>
                     <a href="#" class="social__vk"></a>
                     <a href="#" class="social__teleg"></a>
+                </div>
+                <div class="hamburger__menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                    </label>
+                    <div class="menu__box">
+                        <ul>
+                            <li><a class="menu__item" href="#">Причины дрессировки</a></li>
+                            <li><a class="menu__item" href="#">С кинологом лучше</a></li>
+                            <li><a class="menu__item" href="#">Почему я</a></li>
+                            <li><a class="menu__item" href="#">Этапы дрессировки</a></li>
+                            <li><a class="menu__item" href="#">Отзывы</a></li>
+                            <li><a class="menu__item" href="#">Чему обучу</a></li>
+                            <li><a class="menu__item" href="#">Частые вопросы</a></li>
+                        </ul>
+                        <div class="burger__social">
+                            <a href="#"><img src="./image/vk.webp" alt="vk"></a>
+                            <a href="#"><img src="./image/fb.webp" alt="facebook"></a>
+                            <a href="#"><img src="./image/insta.webp" alt="instagram"></a>
+                            <a href="#"><img src="./image/teleg.webp" alt="telegram"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="header__main">
@@ -38,288 +61,319 @@
                     <p class="header__main--text">Сохранят нервные клетки и порядок в доме</p>
                     <button class="header__main--button button">Стать учителем четвероного друга</button>
                 </div>
-                <div class="header__main--img"><img src="./image/header-main.webp" alt="play with dog"></div>
+                <div class="header__main--img">
+                    <picture>
+                        <source media="(max-width: 480px)" srcset="./image/header-main_480px.webp">
+                        <source media="(max-width: 768px)" srcset="./image/header-main_768px.webp">
+                        <img src="./image/header-main.webp" alt="play with dog">
+                    </picture>
+                </div>
             </div>
-
         </div>
     </header>
-    <main class="main">
-        <section class="argument">
-            <div class="argument__desc">
-                <div class="argument__desc--item">
-                    <div class="argument__desc--title title">100 людей</div>
-                    <div class="argument__desc--text">Обучились дрессировать своих питомцев</div>
-                </div>
-                <div class="argument__desc--item">
-                    <div class="argument__desc--title title">200 собак</div>
-                    <div class="argument__desc--text">Начали понимать команды</div>
-                </div>
-                <div class="argument__desc--item">
-                    <div class="argument__desc--title title">2600 часов</div>
-                    <div class="argument__desc--text">Совместных занятий и общения</div>
-                </div>
-                <div class="argument__desc--item">
-                    <div class="argument__desc--title title">10 лет</div>
-                    <div class="argument__desc--text">Посвятила собакам</div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="argument-main">
-                    <div class="argument-main--title title">Причины дрессировать собаку</div>
-                    <div class="argument-main__items">
-                        <div class="argument-main__item">
-                            <div class="argument-main__item--img"><img src="./image/icons/1.svg" alt="logo"></div>
-                            <div class="argument-main__item--text">Гонится за животными</div>
+    <!-- <main class="main">
+                <section class="argument">
+                    <div class="argument__desc">
+                        <div class="argument__desc--item">
+                            <div class="argument__desc--title title">100 людей</div>
+                            <div class="argument__desc--text">Обучились дрессировать своих питомцев</div>
                         </div>
-                        <div class="argument-main__item">
-                            <div class="argument-main__item--img"><img src="./image/icons/2.svg" alt="logo"></div>
-                            <div class="argument-main__item--text">Роняет вещи</div>
+                        <div class="argument__desc--item">
+                            <div class="argument__desc--title title">200 собак</div>
+                            <div class="argument__desc--text">Начали понимать команды</div>
                         </div>
-                        <div class="argument-main__item">
-                            <div class="argument-main__item--img"><img src="./image/icons/3.svg" alt="logo"></div>
-                            <div class="argument-main__item--text">Грызёт мебель</div>
+                        <div class="argument__desc--item">
+                            <div class="argument__desc--title title">2600 часов</div>
+                            <div class="argument__desc--text">Совместных занятий и общения</div>
                         </div>
-                        <div class="argument-main__item">
-                            <div class="argument-main__item--img"><img src="./image/icons/4.svg" alt="logo"></div>
-                            <div class="argument-main__item--text">Сдирает обои</div>
-                        </div>
-                        <div class="argument-main__item">
-                            <div class="argument-main__item--img"><img src="./image/icons/5.svg" alt="logo"></div>
-                            <div class="argument-main__item--text">Натянутый поводок</div>
-                        </div>
-                        <div class="argument-main__item">
-                            <div class="argument-main__item--img"><img src="./image/icons/6.svg" alt="logo"></div>
-                            <div class="argument-main__item--text">Не ходит в лоток</div>
-                        </div>
-                        <div class="argument-main__item">
-                            <div class="argument-main__item--img"><img src="./image/icons/7.svg" alt="logo"></div>
-                            <div class="argument-main__item--text">Лает на людей</div>
-                        </div>
-                        <div class="argument-main__item">
-                            <div class="argument-main__item--img"><img src="./image/icons/8.svg" alt="logo"></div>
-                            <div class="argument-main__item--text">Берет все в рот</div>
+                        <div class="argument__desc--item">
+                            <div class="argument__desc--title title">10 лет</div>
+                            <div class="argument__desc--text">Посвятила собакам</div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <section class="kinolog violet-block">
-            <div class="container">
-                <div class="kinolog__title">С кинологом лучше</div>
-                <div class="kinolog__desc">
-                    <div class="kinolog__item kinolog__item--left">
-                        <div class="kinolog__item--title">Опыт работы</div>
-                        <div class="kinolog__item--text">Благодаря многолетнему опыту кинологи легко могут заметить
-                            недостаточно чёткие жесты, противоречивые команды или несвоевременное подкрепление.
-                            Так же вы не окажитесь в тупике, не зная, как разрешить ту или иную ситуацию. Профессионал
-                            подскажет простой выход из неё.</div>
+                    <div class="container">
+                        <div class="argument-main">
+                            <div class="argument-main--title title">Причины дрессировать собаку</div>
+                            <div class="argument-main__items">
+                                <div class="argument-main__item">
+                                    <div class="argument-main__item--img"><img src="./image/icons/1.svg" alt="logo">
+                                    </div>
+                                    <div class="argument-main__item--text">Гонится за животными</div>
+                                </div>
+                                <div class="argument-main__item">
+                                    <div class="argument-main__item--img"><img src="./image/icons/2.svg" alt="logo">
+                                    </div>
+                                    <div class="argument-main__item--text">Роняет вещи</div>
+                                </div>
+                                <div class="argument-main__item">
+                                    <div class="argument-main__item--img"><img src="./image/icons/3.svg" alt="logo">
+                                    </div>
+                                    <div class="argument-main__item--text">Грызёт мебель</div>
+                                </div>
+                                <div class="argument-main__item">
+                                    <div class="argument-main__item--img"><img src="./image/icons/4.svg" alt="logo">
+                                    </div>
+                                    <div class="argument-main__item--text">Сдирает обои</div>
+                                </div>
+                                <div class="argument-main__item">
+                                    <div class="argument-main__item--img"><img src="./image/icons/5.svg" alt="logo">
+                                    </div>
+                                    <div class="argument-main__item--text">Натянутый поводок</div>
+                                </div>
+                                <div class="argument-main__item">
+                                    <div class="argument-main__item--img"><img src="./image/icons/6.svg" alt="logo">
+                                    </div>
+                                    <div class="argument-main__item--text">Не ходит в лоток</div>
+                                </div>
+                                <div class="argument-main__item">
+                                    <div class="argument-main__item--img"><img src="./image/icons/7.svg" alt="logo">
+                                    </div>
+                                    <div class="argument-main__item--text">Лает на людей</div>
+                                </div>
+                                <div class="argument-main__item">
+                                    <div class="argument-main__item--img"><img src="./image/icons/8.svg" alt="logo">
+                                    </div>
+                                    <div class="argument-main__item--text">Берет все в рот</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="kinolog__item kinolog__item--right">
-                        <div class="kinolog__item--title">Экономия времени</div>
-                        <div class="kinolog__item--text">На поиски нужной информации не уходят недели. 1 час занятий
-                            и команда лежать уже выучена.</div>
+                </section>
+                <section class="kinolog violet-block">
+                    <div class="container">
+                        <div class="kinolog__title">С кинологом лучше</div>
+                        <div class="kinolog__desc">
+                            <div class="kinolog__item kinolog__item--left">
+                                <div class="kinolog__item--title">Опыт работы</div>
+                                <div class="kinolog__item--text">Благодаря многолетнему опыту кинологи легко могут
+                                    заметить
+                                    недостаточно чёткие жесты, противоречивые команды или несвоевременное подкрепление.
+                                    Так же вы не окажитесь в тупике, не зная, как разрешить ту или иную ситуацию.
+                                    Профессионал
+                                    подскажет простой выход из неё.</div>
+                            </div>
+                            <div class="kinolog__item kinolog__item--right">
+                                <div class="kinolog__item--title">Экономия времени</div>
+                                <div class="kinolog__item--text">На поиски нужной информации не уходят недели. 1
+                                    час занятий
+                                    и команда лежать уже выучена.</div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <section class="why">
-            <div class="container">
-                <div class="why__title title">Почему я</div>
-                <div class="cards why__items">
-                    <div class="card why__item">
-                        <div class="why__item--title">Обучаю всех</div>
-                        <span>Обучаю владельцев, и их питомцев</span>
-                        <p>Возраст владельцев не важен. <br> Щенков приучать начинаю с 4 месяцев</p>
+                </section>
+                <section class="why">
+                    <div class="container">
+                        <div class="why__title title">Почему я</div>
+                        <div class="cards why__items">
+                            <div class="card why__item">
+                                <div class="why__item--title">Обучаю всех</div>
+                                <span>Обучаю владельцев, и их питомцев</span>
+                                <p>Возраст владельцев не важен. <br> Щенков приучать начинаю с 4 месяцев</p>
+                            </div>
+                            <div class="card why__item">
+                                <div class="why__item--title">К каждой собаке свой подход</div>
+                                <span>Узнаю сколько питомцу</span>
+                                <span>Был ли опыт в дрессировке</span>
+                                <p>Если был, то я обязательно должна знать как обучали. Так я пойму его условные
+                                    рефлексы,
+                                    и какие
+                                    команды питомец уже знает, какие стоит обучить или даже заново пройти
+                                    и зафиксировать
+                                    результат.
+                                </p>
+                                <p>Если опыта не было я составляю список команд из ваших пожеланий и причин.</p>
+                            </div>
+                            <div class="card why__item why__item--right">
+                                <div class="why__item--title">Опыт работы</div>
+                                <p><span>200</span> дрессированных собак, <br> получивших <span>350</span> наград
+                                    на разных
+                                    соревнованиях
+                                </p>
+                                <p><span>100</span> людей научились правильно дрессировать и общаться со своими
+                                    питомцами</p>
+                                <p><span>2600</span> часов совместных занятий и встреч</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card why__item">
-                        <div class="why__item--title">К каждой собаке свой подход</div>
-                        <span>Узнаю сколько питомцу</span>
-                        <span>Был ли опыт в дрессировке</span>
-                        <p>Если был, то я обязательно должна знать как обучали. Так я пойму его условные рефлексы,
-                            и какие
-                            команды питомец уже знает, какие стоит обучить или даже заново пройти и зафиксировать
-                            результат.
-                        </p>
-                        <p>Если опыта не было я составляю список команд из ваших пожеланий и причин.</p>
+                </section>
+                <section class="stage">
+                    <div class="container">
+                        <div class="stage__title title">Этапы дрессировки</div>
+                        <div class="stage__items">
+                            <div class="stage__item">
+                                <span>01</span>
+                                <div class="stage__item--text">Созвон по телефону или общение онлайн</div>
+                            </div>
+                            <div class="stage__item">
+                                <span>02</span>
+                                <div class="stage__item--text">Разговариваем про собаку</div>
+                            </div>
+                            <div class="stage__item">
+                                <span>03</span>
+                                <div class="stage__item--text">Узнаю причины обращения</div>
+                            </div>
+                            <div class="stage__item">
+                                <span>04</span>
+                                <div class="stage__item--text">Узнаю удобное время занятий</div>
+                            </div>
+                            <div class="stage__item">
+                                <span>05</span>
+                                <div class="stage__item--text">Создаю график занятий</div>
+                            </div>
+                            <div class="stage__item">
+                                <span>06</span>
+                                <div class="stage__item--text">Скидываю всю информацию, с которой нужно ознакомиться
+                                </div>
+                            </div>
+                            <div class="stage__item">
+                                <span>07</span>
+                                <div class="stage__item--text">Знакомство с собакой.</div>
+                            </div>
+                            <div class="stage__item">
+                                <span>08</span>
+                                <div class="stage__item--text">Обучение командам</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card why__item why__item--right">
-                        <div class="why__item--title">Опыт работы</div>
-                        <p><span>200</span> дрессированных собак, <br> получивших <span>350</span> наград на разных
-                            соревнованиях
-                        </p>
-                        <p><span>100</span> людей научились правильно дрессировать и общаться со своими питомцами</p>
-                        <p><span>2600</span> часов совместных занятий и встреч</p>
+                </section>
+                <section class="forms violet-block">
+                    <div class="container">
+                        <div class="forms__items">
+                            <form action="" class="form__text">
+                                <input type="text" placeholder="Ваше имя">
+                                <input type="email" placeholder="Ваша почта">
+                            </form>
+                            <div class="form__check">
+                                <input type="checkbox" class="form__check--checkbox" id="check">
+                                <label class="form__check--text" for="check">
+                                    <p>Соглашаюсь с <span>условиями</span> <br> обработки
+                                        данных</p>
+                                </label>
+                                <div class="form__check--button button">Стать учителем четвероного друга</div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <section class="stage">
-            <div class="container">
-                <div class="stage__title title">Этапы дрессировки</div>
-                <div class="stage__items">
-                    <div class="stage__item">
-                        <span>01</span>
-                        <div class="stage__item--text">Созвон по телефону или общение онлайн</div>
+                </section>
+                <section class="reviews">
+                    <div class="container">
+                        <div class="title reviews__title">Отзывы</div>
+                        <div class="reviews__items cards">
+                            <div class="reviews__item card">
+                                <div class="reviews__text">Я хочу сказать огромное спасибо вам! Вы были с нами в самый
+                                    сложный
+                                    момент и только благодаря вам мы смогли преодолеть все трудности.</div>
+                                <span>Леонид Петрович</span>
+                            </div>
+                            <div class="reviews__item card">
+                                <div class="reviews__text">Добрый день. Я хочу поделиться искренними эмоциями
+                                    после занятий
+                                    с моим любимым кинологом. Она учит понимать, и получать удовольствие от жизни
+                                    с четвероногим
+                                    другом. Спасибо вам ещё раз! Надеюсь, что дальше больше и мы с вами ещё много будем
+                                    вместе
+                                    радоваться успехам Мари, которых бы не было без вас! Она тот специалист, которого
+                                    я искала
+                                    несколько месяцев.</div>
+                                <span>Инна Муравьёва</span>
+                            </div>
+                            <div class="reviews__item card">
+                                <div class="reviews__text">Спасибо вам огромное</div>
+                                <span>Александр Н.</span>
+                            </div>
+                        </div>
+                        <div class="title reviews__title">Чему обучу</div>
+                        <div class="learning">
+                            <div class="learning__spans">
+                                <span class="stopped">«Перестань тянуть поводок»</span>
+                                <span class="nearby">«Рядом»</span>
+                                <span class="fas">«ФАС»</span>
+                            </div>
+                            <div class="learning__line">
+                                <div class="learning__command">КОМАНДЫ</div>
+                                <div class="learning__img"><img src="./image/learn-line.png" alt="line"></div>
+                                <div class="learning__figure">10 000₽</div>
+                            </div>
+                            <div class="learning__spans">
+                                <span class="come">«Ко мне»</span>
+                                <span class="three">«Трио: сидеть, стоять, лежать»</span>
+                                <span class="foo">«ФУ»</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="stage__item">
-                        <span>02</span>
-                        <div class="stage__item--text">Разговариваем про собаку</div>
+                </section>
+                <section class="forms violet-block">
+                    <div class="container">
+                        <div class="forms__items">
+                            <form action="" class="form__text">
+                                <input type="text" placeholder="Ваше имя">
+                                <input type="email" placeholder="Ваша почта">
+                            </form>
+                            <div class="form__check">
+                                <input type="checkbox" class="form__check--checkbox" id="check">
+                                <label class="form__check--text" for="check">
+                                    <p>Соглашаюсь с <span>условиями</span> <br> обработки
+                                        данных</p>
+                                </label>
+                                <div class="form__check--button button">Стать учителем четвероного друга</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="stage__item">
-                        <span>03</span>
-                        <div class="stage__item--text">Узнаю причины обращения</div>
+                </section>
+                <section class="answers">
+                    <div class="container">
+                        <div class="answers__title title">Ответы на частые вопросы</div>
+                        <div class="accordeon">
+                            <ul>
+                                <li>
+                                    <input type="checkbox" checked>
+                                    <i></i>
+                                    <h2>Можно ли онлайн обучить собаку?</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quis soluta
+                                        voluptatum
+                                        similique magnam
+                                        exercitationem, accusantium dolores repellendus modi placeat!.</p>
+                                </li>
+                                <li>
+                                    <input type="checkbox" checked>
+                                    <i></i>
+                                    <h2>Как происходит оплата?</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quis soluta
+                                        voluptatum
+                                        similique magnam
+                                        exercitationem, accusantium dolores repellendus modi placeat!.</p>
+                                </li>
+                                <li>
+                                    <input type="checkbox" checked>
+                                    <i></i>
+                                    <h2>Будет ли дальнейшее общение после занятий?</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quis soluta
+                                        voluptatum
+                                        similique magnam
+                                        exercitationem, accusantium dolores repellendus modi placeat!.</p>
+                                </li>
+                                <li>
+                                    <input type="checkbox" checked>
+                                    <i></i>
+                                    <h2>Что если не получиться?</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quis soluta
+                                        voluptatum
+                                        similique magnam
+                                        exercitationem, accusantium dolores repellendus modi placeat!.</p>
+                                </li>
+                                <li>
+                                    <input type="checkbox" checked>
+                                    <i></i>
+                                    <h2>Что я получу в конце?</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quis soluta
+                                        voluptatum
+                                        similique magnam
+                                        exercitationem, accusantium dolores repellendus modi placeat!.</p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="stage__item">
-                        <span>04</span>
-                        <div class="stage__item--text">Узнаю удобное время занятий</div>
-                    </div>
-                    <div class="stage__item">
-                        <span>05</span>
-                        <div class="stage__item--text">Создаю график занятий</div>
-                    </div>
-                    <div class="stage__item">
-                        <span>06</span>
-                        <div class="stage__item--text">Скидываю всю информацию, с которой нужно ознакомиться</div>
-                    </div>
-                    <div class="stage__item">
-                        <span>07</span>
-                        <div class="stage__item--text">Знакомство с собакой.</div>
-                    </div>
-                    <div class="stage__item">
-                        <span>08</span>
-                        <div class="stage__item--text">Обучение командам</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="forms violet-block">
-            <div class="container">
-                <div class="forms__items">
-                    <form action="" class="form__text">
-                        <input type="text" placeholder="Ваше имя">
-                        <input type="email" placeholder="Ваша почта">
-                    </form>
-                    <div class="form__check">
-                        <input type="checkbox" class="form__check--checkbox" id="check">
-                        <label class="form__check--text" for="check">
-                            <p>Соглашаюсь с <span>условиями</span> <br> обработки
-                                данных</p>
-                        </label>
-                        <div class="form__check--button button">Стать учителем четвероного друга</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="reviews">
-            <div class="container">
-                <div class="title reviews__title">Отзывы</div>
-                <div class="reviews__items cards">
-                    <div class="reviews__item card">
-                        <div class="reviews__text">Я хочу сказать огромное спасибо вам! Вы были с нами в самый сложный
-                            момент и только благодаря вам мы смогли преодолеть все трудности.</div>
-                        <span>Леонид Петрович</span>
-                    </div>
-                    <div class="reviews__item card">
-                        <div class="reviews__text">Добрый день. Я хочу поделиться искренними эмоциями после занятий
-                            с моим любимым кинологом. Она учит понимать, и получать удовольствие от жизни с четвероногим
-                            другом. Спасибо вам ещё раз! Надеюсь, что дальше больше и мы с вами ещё много будем вместе
-                            радоваться успехам Мари, которых бы не было без вас! Она тот специалист, которого я искала
-                            несколько месяцев.</div>
-                        <span>Инна Муравьёва</span>
-                    </div>
-                    <div class="reviews__item card">
-                        <div class="reviews__text">Спасибо вам огромное</div>
-                        <span>Александр Н.</span>
-                    </div>
-                </div>
-                <div class="title reviews__title">Чему обучу</div>
-                <div class="learning">
-                    <div class="learning__spans">
-                        <span class="stopped">«Перестань тянуть поводок»</span>
-                        <span class="nearby">«Рядом»</span>
-                        <span class="fas">«ФАС»</span>
-                    </div>
-                    <div class="learning__line">
-                        <div class="learning__command">КОМАНДЫ</div>
-                        <div class="learning__img"><img src="./image/learn-line.png" alt="line"></div>
-                        <div class="learning__figure">10 000₽</div>
-                    </div>
-                    <div class="learning__spans">
-                        <span class="come">«Ко мне»</span>
-                        <span class="three">«Трио: сидеть, стоять, лежать»</span>
-                        <span class="foo">«ФУ»</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="forms violet-block">
-            <div class="container">
-                <div class="forms__items">
-                    <form action="" class="form__text">
-                        <input type="text" placeholder="Ваше имя">
-                        <input type="email" placeholder="Ваша почта">
-                    </form>
-                    <div class="form__check">
-                        <input type="checkbox" class="form__check--checkbox" id="check">
-                        <label class="form__check--text" for="check">
-                            <p>Соглашаюсь с <span>условиями</span> <br> обработки
-                                данных</p>
-                        </label>
-                        <div class="form__check--button button">Стать учителем четвероного друга</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="answers">
-            <div class="container">
-                <div class="answers__title title">Ответы на частые вопросы</div>
-                <div class="accordeon">
-                    <ul>
-                        <li>
-                            <input type="checkbox" checked>
-                            <i></i>
-                            <h2>Можно ли онлайн обучить собаку?</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quis soluta voluptatum
-                                similique magnam
-                                exercitationem, accusantium dolores repellendus modi placeat!.</p>
-                        </li>
-                        <li>
-                            <input type="checkbox" checked>
-                            <i></i>
-                            <h2>Как происходит оплата?</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quis soluta voluptatum
-                                similique magnam
-                                exercitationem, accusantium dolores repellendus modi placeat!.</p>
-                        </li>
-                        <li>
-                            <input type="checkbox" checked>
-                            <i></i>
-                            <h2>Будет ли дальнейшее общение после занятий?</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quis soluta voluptatum
-                                similique magnam
-                                exercitationem, accusantium dolores repellendus modi placeat!.</p>
-                        </li>
-                        <li>
-                            <input type="checkbox" checked>
-                            <i></i>
-                            <h2>Что если не получиться?</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quis soluta voluptatum
-                                similique magnam
-                                exercitationem, accusantium dolores repellendus modi placeat!.</p>
-                        </li>
-                        <li>
-                            <input type="checkbox" checked>
-                            <i></i>
-                            <h2>Что я получу в конце?</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quis soluta voluptatum
-                                similique magnam
-                                exercitationem, accusantium dolores repellendus modi placeat!.</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    </main>
+                </section>
+            </main>  -->
     <footer class="footer">
         <div class="container">
             <div class="header__menu">
@@ -333,6 +387,7 @@
                 </div>
             </div>
         </div>
+
     </footer>
 </body>
 
