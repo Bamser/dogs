@@ -108,4 +108,45 @@
 
   
 
- 
+@media (max-width: 768px){
+    
+    .kinolog {
+        &__desc {
+            margin-left: auto;
+            display: flex;
+            gap: 2rem;
+        }
+        &__item {
+            flex-basis: 35.4rem;
+        }
+    }
+}
+
+
+@media (max-width: 480px){
+    .violet-block {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+    
+    .kinolog {
+        &__title {
+            font-size: 3rem;
+        }
+        &__desc {
+            margin-top: 4rem;
+            margin-left: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        &__item {
+            flex-basis: 9rem;
+            &--title {
+                font-size: 2rem;
+            }
+            &--text {
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
