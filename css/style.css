@@ -645,6 +645,9 @@ input[type=number] {
   .kinolog__item {
     flex-basis: 35.4rem;
   }
+  .forms__items {
+    gap: 3rem;
+  }
 }
 @media (max-width: 480px) {
   .violet-block {
@@ -668,6 +671,22 @@ input[type=number] {
   }
   .kinolog__item--text {
     font-size: 1.6rem;
+  }
+  .forms__items {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem 0;
+  }
+  .form__text input {
+    width: 44rem;
+  }
+  .form__check {
+    width: 44rem;
+  }
+  .form__check--button {
+    width: 44rem;
+    height: 7rem;
+    padding-top: 2rem;
   }
 }
 .why {
