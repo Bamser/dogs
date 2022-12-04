@@ -137,11 +137,10 @@ input[type="number"] {
     display: flex;
     justify-content: space-between;
     gap: 3rem;
-  
 }
 .card {
-    width: 38.6rem;
-    min-height: 40rem;
+    max-width: 44rem;
+    max-height: 40rem;
     padding: 3rem;
     background-color: #FFFFFF;
     box-shadow: -.4rem -.4rem 2rem rgba(120, 113, 222, 0.1), .4rem .4rem 2rem rgba(120, 113, 222, 0.1);
