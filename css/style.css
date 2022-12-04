@@ -817,6 +817,38 @@ input[type=number] {
   color: #0F0F10;
 }
 
+@media (max-width: 768px) {
+  .stage {
+    background-repeat: no-repeat;
+    background-position-y: 33rem;
+    background-position-x: center;
+    background-size: 220%;
+  }
+  .stage__items {
+    gap: 11.8rem 2rem;
+  }
+  .stage__item {
+    max-width: 16.7rem;
+  }
+}
+@media (max-width: 480px) {
+  .stage {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    background-image: none;
+  }
+  .stage__items {
+    margin-top: 4rem;
+    gap: 3rem 2rem;
+  }
+  .stage__item {
+    max-width: 21rem;
+    padding-right: 1rem;
+  }
+  .stage__item:nth-child(even) {
+    padding-top: 4rem;
+  }
+}
 .reviews {
   margin-top: 8rem;
   margin-bottom: 8rem;

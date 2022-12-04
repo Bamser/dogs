@@ -34,3 +34,38 @@
         }
     }
 }
+
+@media (max-width: 768px){
+    .stage {
+        background-repeat: no-repeat;
+        background-position-y: 33rem;
+        background-position-x: center;
+        background-size: 220%;
+        &__items {
+            gap: 11.8rem 2rem;
+        }
+        &__item {
+            max-width: 16.7rem;
+        }
+    }
+}
+
+
+@media (max-width: 480px) {
+    .stage {
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+        background-image: none;
+        &__items {
+            margin-top: 4rem;
+            gap: 3rem 2rem;
+        }
+        &__item {
+            max-width: 21rem;
+            padding-right: 1rem;
+            &:nth-child(even) {
+                padding-top: 4rem;
+            }
+        }
+    }
+}
