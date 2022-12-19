@@ -131,7 +131,9 @@ input[type="number"] {
     -moz-appearance: textfield;
 }
 
-
+.main {
+    padding: auto 1.5rem;
+}
 .cards {
     margin-top: 7rem;
     display: flex;

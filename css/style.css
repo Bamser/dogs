@@ -160,6 +160,10 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+.main {
+  padding: auto 1.5rem;
+}
+
 .cards {
   margin-top: 7rem;
   display: flex;
@@ -944,6 +948,110 @@ input[type=number] {
   margin-right: 25rem;
 }
 
+@media (max-width: 768px) {
+  .reviews {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+  .reviews__items {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .reviews__item {
+    width: 36rem;
+  }
+  .reviews__item--center {
+    position: absolute;
+    top: -1rem;
+    right: 0;
+  }
+  .reviews__item:hover {
+    transform: scale(1.06);
+  }
+  .learning__line {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .learning span {
+    font-size: 2rem;
+  }
+  .learning__command {
+    margin-right: 1rem;
+  }
+  .learning__img img {
+    height: 2rem;
+  }
+  .learning__figure {
+    margin-left: 1rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .come {
+    margin-left: 0rem;
+  }
+  .three {
+    margin-left: 6rem;
+  }
+  .foo {
+    margin-left: 5rem;
+  }
+  .stopped {
+    margin-right: 8rem;
+  }
+  .nearby {
+    margin-right: 10rem;
+  }
+  .fas {
+    margin-right: -2.5rem;
+  }
+}
+@media (max-width: 480px) {
+  .reviews {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+  .reviews__items {
+    margin-bottom: 6rem;
+  }
+  .reviews__item {
+    width: 44rem;
+  }
+  .reviews__item--center {
+    position: relative;
+  }
+  .learning span {
+    font-size: 1.4rem;
+  }
+  .learning__command {
+    margin-right: 1rem;
+  }
+  .learning__img img {
+    height: 2rem;
+  }
+  .learning__figure {
+    font-size: 1.5rem;
+  }
+  .come {
+    margin-left: 5rem;
+  }
+  .three {
+    margin-left: 2rem;
+  }
+  .foo {
+    margin-left: 2rem;
+  }
+  .stopped {
+    margin-left: 12rem;
+  }
+  .nearby {
+    margin-right: 8rem;
+  }
+  .fas {
+    margin-right: 6rem;
+  }
+}
 .answers {
   margin: 8rem auto;
 }
@@ -1022,4 +1130,10 @@ input[type=number] {
 }
 .accordeon ul li input[type=checkbox]:checked ~ i:after {
   transform: translate(-2px, 0) rotate(-45deg);
+}
+
+@media (max-width: 480px) {
+  .answers {
+    margin: 4rem auto;
+  }
 }

@@ -77,3 +77,9 @@
         transform: translate(-2px, 0) rotate(-45deg);
       }
 }
+
+@media (max-width: 480px) {
+  .answers {
+    margin: 4rem auto;
+}
+}

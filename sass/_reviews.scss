@@ -58,14 +58,126 @@
 .foo {
     margin-left: 12rem;
 }
-
 .stopped {
     margin-right: 10rem;
-
 }
 .nearby {
     margin-right: 25rem;
 }
 .fas {
     margin-right: 25rem;
+}
+
+
+@media (max-width: 768px) {
+    .reviews {
+        margin-top: 8rem;
+        margin-bottom: 8rem;
+        &__items {
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+        }
+        &__item {
+        width: 36rem;
+        &--center {
+            position: absolute;
+            top: -1rem;
+            right: 0;
+        }
+        &:hover {
+            transform: scale(1.06);
+         }
+      }
+    }
+    .learning {
+
+        &__line {
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+        }
+        & span {
+            font-size: 2rem;
+        }
+        &__command {
+            margin-right: 1rem;     
+        }
+        &__img img {
+            height: 2rem;
+        }
+        &__figure {
+            margin-left: 1rem;
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+    .come {
+        margin-left: 0rem;
+       }
+       .three {
+           margin-left: 6rem;
+       }
+       .foo {
+           margin-left: 5rem;
+       }
+       .stopped {
+           margin-right: 8rem;
+       }
+       .nearby {
+           margin-right: 10rem;
+       }
+       .fas {
+           margin-right: -2.5rem;
+       }
+}
+
+
+@media (max-width: 480px) {
+    .reviews {
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+        &__items {
+            margin-bottom: 6rem;
+        }
+        &__item {
+            width: 44rem;
+            &--center {
+                position: relative;
+            }
+        }
+    }
+    .learning {
+
+        & span {
+            font-size: 1.4rem;
+        }
+        &__command {
+            margin-right: 1rem;     
+        }
+        &__img img {
+            height: 2rem;
+        }
+        &__figure {
+            font-size: 1.5rem;
+        }
+    }
+    .come {
+        margin-left: 5rem;
+       }
+       .three {
+           margin-left: 2rem;
+       }
+       .foo {
+           margin-left: 2rem;
+       }
+       .stopped {
+          margin-left: 12rem;
+       }
+       .nearby {
+           margin-right: 8rem;
+       }
+       .fas {
+           margin-right: 6rem;
+       }
 }
